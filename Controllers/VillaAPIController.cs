@@ -9,7 +9,7 @@ namespace MagicVilla_VillaAPI.Controllers
     {
         [HttpGet]
         public IEnumerable<Villa> GetVillas()
-        {
+        { 
             return new List<Villa> {
                 new Villa{Id = 1, Name = "Pool view" },
                 new Villa{Id = 2, Name = "Beach view" }
